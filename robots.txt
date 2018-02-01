@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://c-sec.ru/sitemap.xml

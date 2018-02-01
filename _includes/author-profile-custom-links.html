@@ -5,3 +5,11 @@
     </a>
   </li>
 -->
+
+{% if author.vk %}
+  <li>
+    <a href="https://vk.com/{{ author.vk }}" itemprop="sameAs">
+      <i class="fa fa-fw fa-vk" aria-hidden="true"></i> ВКонтакте
+    </a>
+  </li>
+{% endif %}
