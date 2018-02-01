@@ -21,15 +21,25 @@
 }
 
 .page {
+  // @include breakpoint($large) {
+  //   float: right;
+  //   width: calc(100% - #{$right-sidebar-width-narrow});
+  //   padding-right: $right-sidebar-width-narrow;
+  // }
+  //
+  // @include breakpoint($x-large) {
+  //   width: calc(100% - #{$right-sidebar-width});
+  //   padding-right: $right-sidebar-width;
+  // }
   @include breakpoint($large) {
     float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    width: 100%;
+    padding-right: 0;
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    width: 100%;
+    padding-right: 0;
   }
 
   .page__inner-wrap {
