@@ -68,6 +68,7 @@
 
   @include breakpoint($large) {
     position: relative;
+    float: right;
     top: 0;
     right: 0;
     width: $right-sidebar-width-narrow;
@@ -78,6 +79,7 @@
   }
 
   @include breakpoint($x-large) {
+    float: right;
     width: $right-sidebar-width;
     // margin-right: -1 * $right-sidebar-width;
     margin-right: 0;
