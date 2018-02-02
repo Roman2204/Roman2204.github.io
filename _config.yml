@@ -79,6 +79,8 @@ social:
 analytics:
   provider               : custom # false (default), "google", "google-universal", "custom"
   google:
+    tracking_id          :
+  custom:
     tracking_id          : 42485424 # Yandex Metrika
 
 
