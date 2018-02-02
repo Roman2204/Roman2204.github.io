@@ -75,12 +75,14 @@
     margin-right: 0;
     padding-left: 1em;
     z-index: 10;
+    float: right;
   }
 
   @include breakpoint($x-large) {
     width: $right-sidebar-width;
     // margin-right: -1 * $right-sidebar-width;
     margin-right: 0;
+    float: right;
   }
 }
 
@@ -93,6 +95,7 @@
 
   @include breakpoint($x-large) {
     margin-right: 0;
+    float: right;
   }
 }
 
