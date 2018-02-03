@@ -11,9 +11,9 @@ tags:
    - Debian
    - Virtual Machine
 author_profile: true
+toc: true
+toc_label: "Содержание"
 ---
-
-{% include toc icon="file-text" %}
 
 Наиболее популярные системы виртуализации:
 
